@@ -1,0 +1,77 @@
+.navbar {
+  background-color: #ff0000c8;
+  box-shadow: 10px 10px 60px #000000ca inset, #00000096 -20px -20px 60px;
+}
+
+.navname {
+  font-family: cursive;
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+  font-size: 200%;
+  margin-left: 10%;
+}
+
+section {
+  max-width: 100vw;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.button-36 {
+  background-color: #ff0000c8;
+  box-shadow: 10px 10px 60px #000000ca inset, #00000096 -20px -20px 60px;
+
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all 0.5s;
+}
+
+.button-36:hover {
+  color: #000000;
+  font-size: xx-large;
+  box-shadow: #45b5d4 1px 1px 50px;
+  transition-duration: 0.1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}
+
+.new1 {
+  height: -10px;
+  border-top: 7px solid rgb(80, 79, 79);
+  background-color: rgb(35, 35, 35);
+}
+.bx1 {
+  background-color: #000000;
+  height: 400px;
+}
+.tx1 {
+  text-align: left;
+  margin-top: 80px;
+  margin-left: 25%;
+  color: #ffffff;
+  font-size: xx-large;
+}
+.tx2 {
+  text-align: center;
+  color: #ffffff;
+}
+.mbox {
+  height: 80%;
+}
+.ibox {
+  align-items: center;
+  justify-items: center;
+  margin-left: 120px;
+}
