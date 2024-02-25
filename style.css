@@ -8,7 +8,7 @@
   box-shadow: 10px 10px 60px #000000ca inset, #00000096 -20px -20px 60px;
 }
 .bg2 {
-  background-color: #111010;
+  background-color: #141313;
   box-shadow: 10px 10px 60px #000000ca inset, #00000096 -20px -20px 60px;
 }
 .BG{
@@ -121,7 +121,7 @@ section {
 }
 .footertx{
   margin-top: 40px;
-  font-family: cursive;
+  font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
   margin-left: 130px;
   color: #ffffff;
 }
@@ -129,7 +129,7 @@ section {
   color: #ffffff;
 margin-top: -290px;
   margin-left: 500px;
-  font-family: cursive;
+  font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
 }
 .ll{
   margin-top: 50px;
