@@ -58,9 +58,7 @@ section {
   justify-content: center;
   padding-top: 5%;
   
- 
 }
-
 .posters {
   flex: 2 -1px 25%;
   margin-bottom: 90px;
@@ -68,11 +66,9 @@ section {
   border: 5px solid #000000;
 }
 
-
-
 .button{
-  background-color: #0051ff;
-  box-shadow: 10px 10px 60px #0000007a inset, #00000096 -20px -20px 60px;
+  background-color: #0099ff;
+  box-shadow: 20px 20px 60px #0000007a inset, #00000096 -30px -30px 60px;
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
