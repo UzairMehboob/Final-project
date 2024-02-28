@@ -1,22 +1,33 @@
 
 .navbar {
-  background-color: #ff0000c8;
-  box-shadow: 10px 10px 60px #000000ca inset, #00000096 -20px -20px 60px;
+  background-color: #0099ff;
+  box-shadow: 20px 20px 60px #0000007a inset, #00000096 -30px -30px 60px;
+
 }
 .bg1 {
-  background-color: #000000;
+  background-color: #ffffff;
   box-shadow: 10px 10px 60px #000000ca inset, #00000096 -20px -20px 60px;
 }
 .bg2 {
-  background-color: #141313;
-  box-shadow: 10px 10px 60px #000000ca inset, #00000096 -20px -20px 60px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 60px #635858ca inset, #00000096 -20px -20px 60px;
+}
+.carel{
+  margin-top: 80px;
+
+
 }
 .BG{
-  background-color: #100f0f;
+  background-color: #ffffff;
 }
-
+.h{
+  color: #000000;
+}
+.h1{
+  color: #000000;
+}
 .toph1{
-  color: #ffffff;
+  color: #000000;
   font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
   font-weight: bolder;
  font-size: 100px;
@@ -28,7 +39,7 @@
   font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
   font-weight: bold;
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 200%;
   margin-left: 10%;
   text-shadow: #000000 4px 4px 20px;
@@ -53,15 +64,15 @@ section {
 .posters {
   flex: 2 -1px 25%;
   margin-bottom: 90px;
-  border-radius: 3%;
-  border: 7px solid #000000;
+  border-radius: 5%;
+  border: 5px solid #000000;
 }
 
 
 
 .button{
-  background-color: #ff0000c8;
-  box-shadow: 10px 10px 60px #000000ca inset, #00000096 -20px -20px 60px;
+  background-color: #0051ff;
+  box-shadow: 10px 10px 60px #0000007a inset, #00000096 -20px -20px 60px;
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
@@ -94,7 +105,7 @@ section {
   background-color: rgb(35, 35, 35);
 }
 .bx1 {
-  background-color: #000000;
+  background-color: #ffffff;
   height: 500px;
 }
 .tx1 {
@@ -115,20 +126,19 @@ section {
   margin-left: 120px;
 }
 .bx2{
-  background-color: #600000;
-  box-shadow: 10px 10px 60px #000000ca inset, #00000096 -20px -20px 60px;
+  background-color: #000000;
+
   height: 500px;
 }
 .bx3{
-  background-color: #600000;
-  box-shadow: 10px 10px 60px #000000ca inset, #00000096 -20px -20px 60px;
+  background-color: #000000;
   height: 80px;
 }
 .footertx{
   margin-top: 40px;
   font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
   margin-left: 130px;
-  color: #ffffff;
+  color: #dfdfdf;
 }
 .footertx2{
   color: #ffffff;
@@ -146,11 +156,10 @@ margin-top: -290px;
 }
 .w{
   margin-left: 40%;
-  color: #ffffff;
+  color: #fff7f7;
 }
 .footertx3{
 color: #ffffff;
 margin-top: -265px;
   margin-left: 330px;
 }
-
