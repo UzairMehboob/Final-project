@@ -12,18 +12,32 @@
       crossorigin="anonymous"
     />
     <script
+      src="https://kit.fontawesome.com/d0f4b1310a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
 
   <body class="bg1">
-    <nav  class="navbar  sticky-top navbar-expand-lg">
+    <nav class="navbar sticky-top navbar-expand-lg">
       <div class="container-fluid">
         <a class="navname" href="#">MoviesHub</a>
         <button
@@ -37,23 +51,25 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
-          <ul class="navbar-nav m-auto  mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <h4>
-                <a class="nav-link active " aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </h4>
             </li>
             <li class="nav-item">
-              <h4><a class="nav-link " href="./movies.html">Movies</a></h4>
+              <h4><a class="nav-link" href="./movies.html">Movies</a></h4>
             </li>
           </ul>
           <form class="d-flex" role="search">
-            <input id="searchmovie"
+            <input
+              id="searchmovie"
               class="form-control me-2"
-              type="search"
+              type="text"
               placeholder="Search"
               aria-label="Search"
+              onchange="fetchMovies()"
             />
           </form>
         </div>
@@ -78,146 +94,193 @@
           Watch Free Movies With MoviesHub.
         </h1>
         <br />
-        <h3 class="h1">Stop searching for free movie websites and watch MoviesHub. </h3>
+        <h3 class="h1">
+          Stop searching for free movie websites and watch MoviesHub.
+        </h3>
         <br />
         <a href="./movies.html">
           <button class="button" role="button">Browse</button>
         </a>
       </div>
     </section>
+    <div class="movie-container" id="movie-container"></div>
     <!-- card -->
     <!-- 2 -->
     <section>
       <div class="container-fluid align-items-center p-5">
         <div class="d-flex flex-column py-5">
           <div
-                      class="d-flex flex-row border-bottom justify-content-between  text-center align-items-center text-black">
-                      <h1 class="display-6 ">Popular Movies</h1>
-                      <a href="movies.html"
-                          class="text-decoration-underline text-purple-300 cta fw-bold  mt-3">Browse</a>
-                        </div>
-                  <div class="d-flex flex-row flex-wrap justify-content-center justify-content-md-start py-5">
-                    <div class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer"
-                    data-aos="fade-down">
-                    <a href="MoviesAbout.html">
-                      <img class="rounded-4 shadow" src="./imgs/poster12.jpg" alt=""
-                              srcset="" width="300px" height="393">
-                            </a>
-                          </div>
-                      <div class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer"
-                          data-aos="fade-down">
-                          <a href="MoviesAbout.html">
-                            <img class="rounded-4 shadow" src="./imgs/poster10.jpg" alt=""
-                            srcset="" width="300px" height="393">
-                          </a>
-                        </div>
-                        <div class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer"
-                        data-aos="fade-down">
-                        <a href="MoviesAbout.html">
-                          <img class="rounded-4 shadow" src="./imgs/poster1.jpg" alt=""
-                          srcset="" width="300px" height="393">
-                          </a>
-                      </div>
-                      <div class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer"
-                          data-aos="fade-up">
-                          <a href="MoviesAbout.html">
-                              <img class="rounded-4 shadow" src="./imgs/poster13.jpg" alt="" srcset="" width="300px" height="393">
-                            </a>
-                      </div>
-                      <div class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer"
-                          data-aos="fade-down">
-                          <a href="movie-details.html">
-                          <img class="rounded-4 shadow" src="./imgs/poster5.jpg" alt=""
-                          srcset="" width="300px" height="393">
-                        </a>
-                      </div>
-                      <div class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer"
-                          data-aos="fade-down">
-                          <a href="MoviesAbout.html">
-                          <img class="rounded-4 shadow" src="./imgs/poster2.jpg" alt=""
-                          srcset="" width="300px" height="393">
-                          </a>
-                        </div>
-                        <!-- 3 -->
-                        <div class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer"
-                        data-aos="fade-up">
-                        <a href="MoviesAbout.html">
-                            <img class="rounded-4 shadow" src="./imgs/poster8.jpg" alt="" srcset="" width="300px" height="393">
-                          </a>
-                    </div> <div class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer"
-                    data-aos="fade-up">
-                    <a href="MoviesAbout.html">
-                        <img class="rounded-4 shadow" src="./imgs/poster3.jpg" alt="" srcset="" width="300px" height="393">
-                      </a>
-                </div> <div class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer"
-                data-aos="fade-up">
-                <a href="MoviesAbout.html">
-                    <img class="rounded-4 shadow" src="./imgs/poster7.jpg" alt="" srcset="" width="300px" height="393">
-                  </a>
-            </div>
-            <div class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer"
-            data-aos="fade-up">
-            <a href="MoviesAbout.html">
-                <img class="rounded-4 shadow" src="https://pad.mymovies.it/filmclub/2012/10/168/locandinapg5.jpg" alt="" srcset="" width="300px" height="393">
+            class="d-flex flex-row border-bottom justify-content-between text-center align-items-center text-black"
+          >
+            <h1 class="display-6">Popular Movies</h1>
+            <a href="movies.html" class="underline p-btn cta fw-bold mt-3"
+              >Browse</a
+            >
+          </div>
+          <hr />
+          <div
+            class="d-flex flex-row flex-wrap justify-content-center justify-content-md-start py-5"
+          >
+            <div
+              class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer"
+              data-aos="fade-down"
+            >
+              <a href="MoviesAbout.html">
+                <img
+                  class="rounded-4 shadow"
+                  src="./imgs/poster12.jpg"
+                  alt=""
+                  srcset=""
+                  width="300px"
+                  height="393"
+                />
               </a>
+            </div>
+            <div
+              class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer"
+              data-aos="fade-down"
+            >
+              <a href="MoviesAbout.html">
+                <img
+                  class="rounded-4 shadow"
+                  src="./imgs/poster10.jpg"
+                  alt=""
+                  srcset=""
+                  width="300px"
+                  height="393"
+                />
+              </a>
+            </div>
+            <div
+              class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer"
+              data-aos="fade-down"
+            >
+              <a href="MoviesAbout.html">
+                <img
+                  class="rounded-4 shadow"
+                  src="./imgs/poster1.jpg"
+                  alt=""
+                  srcset=""
+                  width="300px"
+                  height="393"
+                />
+              </a>
+            </div>
+            <div
+              class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer"
+              data-aos="fade-up"
+            >
+              <a href="MoviesAbout.html">
+                <img
+                  class="rounded-4 shadow"
+                  src="./imgs/poster13.jpg"
+                  alt=""
+                  srcset=""
+                  width="300px"
+                  height="393"
+                />
+              </a>
+            </div>
+            <div
+              class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer"
+              data-aos="fade-down"
+            >
+              <a href="movie-details.html">
+                <img
+                  class="rounded-4 shadow"
+                  src="./imgs/poster5.jpg"
+                  alt=""
+                  srcset=""
+                  width="300px"
+                  height="393"
+                />
+              </a>
+            </div>
+            <div
+              class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer"
+              data-aos="fade-down"
+            >
+              <a href="MoviesAbout.html">
+                <img
+                  class="rounded-4 shadow"
+                  src="./imgs/poster2.jpg"
+                  alt=""
+                  srcset=""
+                  width="300px"
+                  height="393"
+                />
+              </a>
+            </div>
+            <!-- 3 -->
+            <div
+              class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer"
+              data-aos="fade-up"
+            >
+              <a href="MoviesAbout.html">
+                <img
+                  class="rounded-4 shadow"
+                  src="./imgs/poster8.jpg"
+                  alt=""
+                  srcset=""
+                  width="300px"
+                  height="393"
+                />
+              </a>
+            </div>
+            <div
+              class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer"
+              data-aos="fade-up"
+            >
+              <a href="MoviesAbout.html">
+                <img
+                  class="rounded-4 shadow"
+                  src="./imgs/poster3.jpg"
+                  alt=""
+                  srcset=""
+                  width="300px"
+                  height="393"
+                />
+              </a>
+            </div>
+            <div
+              class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer"
+              data-aos="fade-up"
+            >
+              <a href="MoviesAbout.html">
+                <img
+                  class="rounded-4 shadow"
+                  src="./imgs/poster7.jpg"
+                  alt=""
+                  srcset=""
+                  width="300px"
+                  height="393"
+                />
+              </a>
+            </div>
+            <div
+              class="m-2 card card-cover border-0 rounded-4 card-hover cursor-pointer"
+              data-aos="fade-up"
+            >
+              <a href="MoviesAbout.html">
+                <img
+                  class="rounded-4 shadow"
+                  src="https://pad.mymovies.it/filmclub/2012/10/168/locandinapg5.jpg"
+                  alt=""
+                  srcset=""
+                  width="300px"
+                  height="393"
+                />
+              </a>
+            </div>
+          </div>
         </div>
-                      </div>
-              </div>
-            </div>
-          </section>
-          <!-- 2 -->
-          
-          <div data-aos="fade-right" class="bx2" >
-            <div class="new1">
-            </div>
-            <div class="footertx">
-              <h3>Questions? Contact us.</h3>
-              <br>
-              <h3>FAQ</h3>
-       <br>
-       <h3>Investor Relations</h3>
-       <br>
-       <h3>Privacy</h3>
-       <br>
-       <h3>Speed Test</h3>
-       <br>
-       <h3> MoviesHub</h3>
-    </div>
-    <!-- 2 -->
-    <div class="footertx2">
-      <h3>
-        Help Center</h3>
-      <br>
-      <h3>
-        Jobs</h3>
-      <br>
-      <h3>
-        Cookie Preferences</h3>
-      <br>
-      <h3>
-        Legal Notices</h3>
-      <br>
-      <!-- 3 -->
-      <div class="footertx3">
-        <h3>Account</h3>
-        <br>
-        <h3>Ways to Watch</h3>
-        <br>
-        <h3> Corporate Information</h3>
-        <br>
-        <h3>Only on MoviesHub </h3>
-        <br>
-   </div>
-    </div>
-    <!-- u -->
-
-      <div class="d-d-flex justify-content-between w-50 ll align-items-center border-top" >
-        <div class="d-flex w" >
-          <p>Copyright &copy; MoviesHub 2024  </p>
       </div>
-<script>
-    AOS.init();
-  </script>
+    </section>
   
+
+    <script>
+      AOS.init();
+    </script>
+    <script src="./script.js"></script>
   </body>
 </html>

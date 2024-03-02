@@ -1,7 +1,7 @@
 
 .navbar {
   background-color: #0099ff;
-  box-shadow: 20px 20px 60px #0000007a inset, #00000096 -30px -30px 60px;
+  
 
 }
 .bg1 {
@@ -93,69 +93,4 @@ section {
   .button {
     padding: 0 2.6rem;
   }
-}
-
-.new1 {
-  height: -10px;
-  border-top: 7px solid rgb(80, 79, 79);
-  background-color: rgb(35, 35, 35);
-}
-.bx1 {
-  background-color: #ffffff;
-  height: 500px;
-}
-.tx1 {
-  text-align: left;
-  font-family: cursive;
-  margin-top: 80px;
-  margin-left: 25%;
-  color: #ffffff;
-  font-size: xx-large;
-
-}
-.mbox {
-  height: 100%;
-}
-.ibox {
-  align-items: center;
-  justify-items: center;
-  margin-left: 120px;
-}
-.bx2{
-  background-color: #000000;
-
-  height: 500px;
-}
-.bx3{
-  background-color: #000000;
-  height: 80px;
-}
-.footertx{
-  margin-top: 40px;
-  font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
-  margin-left: 130px;
-  color: #dfdfdf;
-}
-.footertx2{
-  color: #ffffff;
-margin-top: -290px;
-  margin-left: 500px;
-  font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
-}
-.ll{
-  margin-top: 50px;
- margin-left: 150px;
-}
-.l2{
-  margin-top: 30px;
-  margin-left: 450px;
-}
-.w{
-  margin-left: 40%;
-  color: #fff7f7;
-}
-.footertx3{
-color: #ffffff;
-margin-top: -265px;
-  margin-left: 330px;
 }

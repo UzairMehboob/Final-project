@@ -46,19 +46,21 @@
             </li>
           </ul>
           <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-          </form>
+          <input
+          id="searchmovie"
+          class="form-control me-2"
+          type="text"
+          placeholder="Search"
+          aria-label="Search"
+          onchange="fetchMovies()"
+        />
         </div>
       </div>
     </nav>
 
-    <h1 class="toph1">Movies</h1>
+    
  <hr>
+    <div class="movie-container" id="movie-container"></div>
     <div class="movie-container">
       <div data-aos="flip-right" class="posters">
         <a href="MoviesAbout.html"
@@ -260,10 +262,10 @@
             <div
               class="d-flex flex-row border-bottom justify-content-between text-center align-items-center text-black"
             >
-              <h1 class="display-6">Marvel Movies</h1>
+              <h1 class="display-6 ">Marvel Movies</h1>
               <a
                 href="movies.html"
-                class="text-decoration-underline text-purple-300 cta fw-bold mt-3"
+                class="underline p-btn text-purple-300 cta fw-bold mt-3"
                 >Browse</a
               >
             </div>
@@ -371,10 +373,10 @@
             <div
               class="d-flex flex-row border-bottom justify-content-between text-center align-items-center text-black"
             >
-              <h1 class="display-6">Horror Movies</h1>
+              <h1 class="display-6 ">Horror Movies</h1>
               <a
                 href="movies.html"
-                class="text-decoration-underline text-purple-300  cta fw-bold mt-3"
+                class="underline p-btn cta fw-bold mt-3"
                 >Browse</a
               >
             </div>
@@ -478,16 +480,13 @@
       </section>
     </div>
     
-    <div  class="bx3" >
-      <div class="new1">
-      </div>
-        <div class="d-d-flex justify-content-between w-50 l2 align-items-center border-top" >
-          <div class="d-flex w" >
-          <p>Copyright &copy; MoviesHub 2024  </p>
-          </div>
-        </div>
+
+        
     <script>
       AOS.init();
+    </script>
+    <script src="/script.js">
+
     </script>
   </body>
 </html>
