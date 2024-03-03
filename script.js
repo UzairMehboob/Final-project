@@ -32,7 +32,7 @@ function renderMovies(movies) {
         img.src = movie.medium_cover_image
         
         const fvtBtn = document.createElement('button')
-        
+       fvtBtn.classList.add("pbtn");
         fvtBtn.textContent = "Add to Favorite"
         fvtBtn.addEventListener('click', function() {
           handleFvtButtonClick(movie);
@@ -47,8 +47,6 @@ function renderMovies(movies) {
 
 function handleFvtButtonClick(movie) {
   const favList = JSON.parse(localStorage.getItem('favorites')) || [];
-
-  // Check if the movie is already in the favorites list
   const isMovieInFavorites = favList.some((favMovie) => favMovie.id === movie.id);
 console.log(isMovieInFavorites,movie);
   if (!isMovieInFavorites) {
